@@ -244,6 +244,11 @@ class ResourceSwaggerMapping(object):
         if 'delete' in self.schema['allowed_detail_http_methods']:
             detail_api['operations'].append(self.build_detail_operation(method='delete'))
 
+        if 'patch' in self.schema['allowed_detail_http_methods']:
+            operation = self.build_detail_operation(method='patch')
+            operation['parameters'].append(self.build_parameter_for_object(method='patch'))
+            detail_api['operations'].append(operation)
+
         return detail_api
 
     def build_list_api(self):
@@ -299,7 +304,7 @@ class ResourceSwaggerMapping(object):
 
         for name, field in self.schema['fields'].items():
             # Exclude fields from custom put / post object definition
-            if method in ['post','put']:
+            if method in ['post','put','patch']:
                 if name in self.WRITE_ACTION_IGNORED_FIELDS:
                     continue
                 if field.get('readonly'):
@@ -414,6 +419,15 @@ class ResourceSwaggerMapping(object):
                     resource_name='%s_put' % self.resource._meta.resource_name,
                     properties=self.build_properties_from_fields(method='put'),
                     id='%s_put' % self.resource_name
+                )
+            )
+
+        if 'patch' in self.resource._meta.detail_allowed_methods:
+            models.update(
+                self.build_model(
+                    resource_name='%s_patch' % self.resource._meta.resource_name,
+                    properties=self.build_properties_from_fields(method='patch'),
+                    id='%s_patch' % self.resource_name
                 )
             )
 
