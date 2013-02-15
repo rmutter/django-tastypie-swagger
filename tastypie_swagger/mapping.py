@@ -1,6 +1,7 @@
 import datetime
 from django.core.urlresolvers import reverse
 from django.db.models.sql.constants import QUERY_TERMS
+from django.utils.encoding import force_text
 from tastypie import fields
 
 from .utils import trailing_slash_or_none, urljoin_forced
@@ -318,7 +319,7 @@ class ResourceSwaggerMapping(object):
             properties.update(self.build_property(
                     name,
                     field.get('type'),
-                    field.get('help_text')
+                    force_text(field.get('help_text'))
                 )
             )
         return properties
