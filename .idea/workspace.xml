@@ -13,14 +13,16 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/testrunner.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="django-tastypie-swagger.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e505c297-e9c7-4cb7-be75-0ffc6d03b6e2" time="1362075869604" ignored="false" />
+    <file path="/Dummy.txt" changelist="e505c297-e9c7-4cb7-be75-0ffc6d03b6e2" time="1362076595848" ignored="false" />
     <file path="$PROJECT_DIR$/../../../Ranked/ranked/settings.py" changelist="e505c297-e9c7-4cb7-be75-0ffc6d03b6e2" time="1360886883750" ignored="false" />
     <file path="/settings.py" changelist="e505c297-e9c7-4cb7-be75-0ffc6d03b6e2" time="1360886883750" ignored="false" />
     <file path="$PROJECT_DIR$/../../../Ranked/ranked/urls.py" changelist="e505c297-e9c7-4cb7-be75-0ffc6d03b6e2" time="1360886897621" ignored="false" />
     <file path="/urls.py" changelist="e505c297-e9c7-4cb7-be75-0ffc6d03b6e2" time="1360886897621" ignored="false" />
+    <file path="/.gitignore" changelist="e505c297-e9c7-4cb7-be75-0ffc6d03b6e2" time="1362076628792" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +39,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mapping.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mapping.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tastypie_swagger/mapping.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="48" selection-start="2832" selection-end="2832" vertical-scroll-proportion="0.33834586">
+            <state line="71" column="48" selection-start="2832" selection-end="2832" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="6" selection-start="34" selection-end="34" vertical-scroll-proportion="0.14563107">
               <folding />
             </state>
           </provider>
@@ -99,6 +110,7 @@
       <list>
         <option value="$PROJECT_DIR$/tastypie_swagger/templates/tastypie_swagger/index.html" />
         <option value="$PROJECT_DIR$/tastypie_swagger/mapping.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -257,7 +269,11 @@
       <created>1362075873311</created>
       <updated>1362075873311</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="removing workspace files from git">
+      <created>1362076598027</created>
+      <updated>1362076598027</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -342,7 +358,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing workspace files from git, committing mapping changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing workspace files from git" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -359,18 +375,12 @@
     <MESSAGE value="tastypie filtering parameters on resources" />
     <MESSAGE value="fixing end bracket on build_list_operation" />
     <MESSAGE value="removing workspace files from git, committing mapping changes" />
+    <MESSAGE value="removing workspace files from git" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tastypie_swagger/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="0" selection-start="3449" selection-end="3462" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tastypie_swagger/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="105" column="0" selection-start="3449" selection-end="3462" vertical-scroll-proportion="0.0">
@@ -451,7 +461,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tastypie_swagger/mapping.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="48" selection-start="2832" selection-end="2832" vertical-scroll-proportion="0.33834586">
+        <state line="71" column="48" selection-start="2832" selection-end="2832" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="34" selection-end="34" vertical-scroll-proportion="0.14563107">
           <folding />
         </state>
       </provider>
