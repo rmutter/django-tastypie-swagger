@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e505c297-e9c7-4cb7-be75-0ffc6d03b6e2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/django-tastypie-swagger.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/sass_stdlib.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/other.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/testrunner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="django-tastypie-swagger.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e505c297-e9c7-4cb7-be75-0ffc6d03b6e2" time="1362076595848" ignored="false" />
+    <file path="/Dummy.txt" changelist="e505c297-e9c7-4cb7-be75-0ffc6d03b6e2" time="1362076639833" ignored="false" />
     <file path="$PROJECT_DIR$/../../../Ranked/ranked/settings.py" changelist="e505c297-e9c7-4cb7-be75-0ffc6d03b6e2" time="1360886883750" ignored="false" />
     <file path="/settings.py" changelist="e505c297-e9c7-4cb7-be75-0ffc6d03b6e2" time="1360886883750" ignored="false" />
     <file path="$PROJECT_DIR$/../../../Ranked/ranked/urls.py" changelist="e505c297-e9c7-4cb7-be75-0ffc6d03b6e2" time="1360886897621" ignored="false" />
@@ -273,7 +262,11 @@
       <created>1362076598027</created>
       <updated>1362076598027</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="removing workspace files from git">
+      <created>1362076643597</created>
+      <updated>1362076643597</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
