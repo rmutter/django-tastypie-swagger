@@ -61,7 +61,7 @@ class ResourceSwaggerMapping(object):
 #            parameter.update({'allowableValues': allowed_values})
         return parameter
 
-    def build_parameters_from_fields(self):   
+    def build_parameters_from_fields(self):
         parameters = []
         for name, field in self.schema['fields'].items():
             # Ignore readonly fields
